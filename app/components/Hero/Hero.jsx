@@ -4,10 +4,10 @@ import Astronaut from "./Astronaut";
 
 function Hero() {
   return (
-    <>
-        <Astronaut />
+    <div className="flex items-center">
         <Text />
-    </>
+        <Astronaut />
+    </div>
   );
 }
 

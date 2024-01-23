@@ -13,8 +13,12 @@ function Astronaut() {
     },
   };
   return (
-    <div className="h-[80vh]">
-      <Lottie options={defaultOptions} />
+    <div className="h-[80vh] 2xl:translate-y-64 2xl:-translate-x-24 md:-translate-x-40 md:translate-y-[215px] cursor-default">
+      <Lottie
+        options={defaultOptions}
+        isClickToPauseDisabled={true}
+        style={{ transform: "scale(4.3)", width:'300px', height: '200px',pointerEvents:'none' }}
+      />
     </div>
   );
 }

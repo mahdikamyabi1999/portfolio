@@ -5,7 +5,7 @@ import Skills from "./components/skills/Skills";
 
 export default function Home() {
   return (
-    <main className="2xl:mx-48 md:mx-20">
+    <main className=" md:my-0 md:mx-auto md:px-8 2xl:max-w-[1585px] md:max-w-[1329px]">
       <Navbar />
       <Hero />
       <About/>

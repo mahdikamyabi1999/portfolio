@@ -36,7 +36,7 @@ function Carousel() {
               alt="javascript"
             />
             <p className="text-white md:text-3xl 2xl:text-[33px] font-normal pr-3">
-              JS
+              Js
             </p>
           </div>
         </li>
@@ -124,7 +124,7 @@ function Carousel() {
               alt="javascript"
             />
             <p className="text-white md:text-3xl 2xl:text-[33px] font-normal pr-3">
-              JS
+              Js
             </p>
           </div>
         </li>

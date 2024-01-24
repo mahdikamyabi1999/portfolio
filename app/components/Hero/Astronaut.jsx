@@ -8,16 +8,17 @@ function Astronaut() {
     loop: true,
     autoplay: true,
     animationData: animationData,
+    initialSegment: [41, 278],
     rendererSettings: {
       preserveAspectRatio: "xMidYMid slice",
     },
   };
   return (
-    <div className="h-[80vh] md:-translate-x-40 md:translate-y-[215px] cursor-default">
+    <div className=" scale-90 cursor-default">
       <Lottie
         options={defaultOptions}
         isClickToPauseDisabled={true}
-        style={{ pointerEvents:'none' }}
+        style={{ pointerEvents: "none" }}
       />
     </div>
   );

@@ -1,3 +1,5 @@
+const { getDisplayName } = require('next/dist/shared/lib/utils');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -26,3 +28,5 @@ module.exports = {
   },
   plugins: [],
 };
+
+

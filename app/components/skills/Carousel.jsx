@@ -11,7 +11,7 @@ import Image from "next/image";
 function Carousel() {
   return (
     <div className="w-full flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_50px,_black_calc(100%-50px),transparent_100%)]">
-      <ul className="flex items-center justify-center md:justify-start [&_li]:mx-3 animate-infinite-scroll   mb-32">
+      <ul className="flex items-center justify-center md:justify-start [&_li]:mx-3 animate-infinite-scroll">
         <li>
           <div className=" flex justify-between  p-6 items-center   2xl:w-64 bg-[#3E0501] 2xl:h-28 md:w-56 md:h-24 bg-yellow-700 rounded-[35px]">
             <Image className=" md:w-16 2xl:w-[75px]" src={html} alt="html" />
@@ -99,7 +99,7 @@ function Carousel() {
       </ul>
       {/* ******************************************************************************** */}
 
-      <ul className="flex items-center justify-center md:justify-start [&_li]:mx-3 animate-infinite-scroll   mb-32">
+      <ul className="flex items-center justify-center md:justify-start [&_li]:mx-3 animate-infinite-scroll">
         <li>
           <div className=" flex justify-between  p-6 items-center   2xl:w-64 bg-[#3E0501] 2xl:h-28 md:w-56 md:h-24 bg-yellow-700 rounded-[35px]">
             <Image className=" md:w-16 2xl:w-[75px]" src={html} alt="html" />

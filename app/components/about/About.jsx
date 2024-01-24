@@ -2,7 +2,7 @@ function About() {
   return (
     <>
       <div>
-        <h2 className="text-center 2xl:text-5xl md:text-3xl text-blue mt-28 mb-28 font-semibold capitaliz tracking-wide">
+        <h2 className="text-center 2xl:text-5xl md:text-4xl text-blue mb-28 font-semibold capitaliz tracking-wide">
           About
         </h2>
 

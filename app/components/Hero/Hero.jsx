@@ -4,7 +4,7 @@ import Astronaut from "./Astronaut";
 
 function Hero() {
   return (
-    <div className="flex items-center">
+    <div className="grid grid-cols-2 items-center">
         <Text />
         <Astronaut />
     </div>

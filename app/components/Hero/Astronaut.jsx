@@ -25,22 +25,3 @@ function Astronaut() {
 }
 
 export default Astronaut;
-
-// 'use client';
-// import lottie from 'lottie-web'
-// import { useEffect, useRef } from 'react';
-// function Astronaut() {
-//   const container = useRef(null);
-//   useEffect(() => {
-//     lottie.loadAnimation({
-//       container: container.current,
-//       renderer: 'svg',
-//       loop: true,
-//       autoplay: true,
-//       animationData: require('./astronaut.json')
-//     })
-//   },[])
-//   return <div ref={container}></div>;
-// }
-
-// export default Astronaut;

@@ -14,7 +14,12 @@ function Carousel() {
       <ul className="flex items-center justify-center md:justify-start [&_li]:mx-3 animate-infinite-scroll">
         <li>
           <div className=" flex justify-between  p-6 items-center   2xl:w-64 bg-[#3E0501] 2xl:h-28 md:w-56 md:h-24 bg-yellow-700 rounded-[35px]">
-            <Image className=" md:w-16 2xl:w-[75px]" src={html} alt="html" />
+            <Image
+              unoptimized={false}
+              className=" md:w-16 2xl:w-[75px]"
+              src={html}
+              alt="html"
+            />
             <p className="text-white md:text-3xl 2xl:text-[33px] font-normal">
               HTML
             </p>
@@ -22,7 +27,12 @@ function Carousel() {
         </li>
         <li>
           <div className=" flex justify-between  p-6 items-center   2xl:w-64 bg-[#001E2D] 2xl:h-28 md:w-56 md:h-24 bg-yellow-700 rounded-[35px]">
-            <Image className=" md:w-16 2xl:w-[75px]" src={css} alt="css" />
+            <Image
+              unoptimized={false}
+              className=" md:w-16 2xl:w-[75px]"
+              src={css}
+              alt="css"
+            />
             <p className="text-white md:text-3xl 2xl:text-[33px] font-normal">
               CSS
             </p>
@@ -31,6 +41,7 @@ function Carousel() {
         <li>
           <div className=" flex justify-between  p-6 items-center   2xl:w-64 bg-[#987C0D] 2xl:h-28 md:w-56 md:h-24 bg-yellow-700 rounded-[35px]">
             <Image
+              unoptimized={false}
               className=" md:w-16 2xl:w-[75px]"
               src={javascript}
               alt="javascript"
@@ -43,6 +54,7 @@ function Carousel() {
         <li>
           <div className=" flex justify-between  p-6 items-center   2xl:w-64 bg-[#083A5C] 2xl:h-28 md:w-56 md:h-24 bg-yellow-700 rounded-[35px]">
             <Image
+              unoptimized={false}
               className=" md:w-16 2xl:w-[65px]"
               src={typescript}
               alt="typescript"
@@ -54,7 +66,12 @@ function Carousel() {
         </li>
         <li>
           <div className="flex justify-between  p-6 items-center   2xl:w-64 bg-[#052831] 2xl:h-28 md:w-56 md:h-24 bg-yellow-700 rounded-[35px]">
-            <Image className=" md:w-16 2xl:w-[75px]" src={react} alt="react" />
+            <Image
+              unoptimized={false}
+              className=" md:w-16 2xl:w-[75px]"
+              src={react}
+              alt="react"
+            />
             <p className="text-white md:text-3xl 2xl:text-[33px] font-normal">
               React
             </p>
@@ -62,7 +79,12 @@ function Carousel() {
         </li>
         <li>
           <div className="flex justify-between  p-6 items-center   2xl:w-64 bg-[#151515] 2xl:h-28 md:w-56 md:h-24 bg-yellow-700 rounded-[35px]">
-            <Image className=" md:w-16 2xl:w-[75px]" src={next} alt="nextjs" />
+            <Image
+              unoptimized={false}
+              className=" md:w-16 2xl:w-[75px]"
+              src={next}
+              alt="nextjs"
+            />
             <p className="text-white md:text-[28px] 2xl:text-[33px] font-normal">
               Next js
             </p>
@@ -70,7 +92,12 @@ function Carousel() {
         </li>
         <li>
           <div className="flex justify-between  p-6 items-center   2xl:w-64 bg-[#1B0937] 2xl:h-28 md:w-56 md:h-24 bg-yellow-700 rounded-[35px]">
-            <Image className=" md:w-16 2xl:w-[75px]" src={redux} alt="redux" />
+            <Image
+              unoptimized={false}
+              className=" md:w-16 2xl:w-[75px]"
+              src={redux}
+              alt="redux"
+            />
             <p className="text-white md:text-3xl 2xl:text-[33px] font-normal">
               Redux
             </p>
@@ -79,6 +106,7 @@ function Carousel() {
         <li>
           <div className="flex justify-between items-center px-3 2xl:w-64 bg-[#053443] 2xl:h-28 md:w-56 md:h-24 bg-yellow-700 rounded-[35px]">
             <Image
+              unoptimized={false}
               className=" md:w-16 2xl:w-[75px]"
               src={tailwind}
               alt="tailwind"
@@ -90,7 +118,12 @@ function Carousel() {
         </li>
         <li>
           <div className="flex justify-between  p-6 items-center   2xl:w-64 bg-[#882C1B] 2xl:h-28 md:w-56 md:h-24 bg-yellow-700 rounded-[35px]">
-            <Image className=" md:w-16 2xl:w-[75px]" src={git} alt="git" />
+            <Image
+              unoptimized={false}
+              className=" md:w-16 2xl:w-[75px]"
+              src={git}
+              alt="git"
+            />
             <p className="text-white md:text-3xl 2xl:text-[33px] font-normal md:pr-3 2xl:pr-5">
               Git
             </p>
@@ -102,7 +135,12 @@ function Carousel() {
       <ul className="flex items-center justify-center md:justify-start [&_li]:mx-3 animate-infinite-scroll">
         <li>
           <div className=" flex justify-between  p-6 items-center   2xl:w-64 bg-[#3E0501] 2xl:h-28 md:w-56 md:h-24 bg-yellow-700 rounded-[35px]">
-            <Image className=" md:w-16 2xl:w-[75px]" src={html} alt="html" />
+            <Image
+              unoptimized={false}
+              className=" md:w-16 2xl:w-[75px]"
+              src={html}
+              alt="html"
+            />
             <p className="text-white md:text-3xl 2xl:text-[33px] font-normal">
               HTML
             </p>
@@ -110,7 +148,12 @@ function Carousel() {
         </li>
         <li>
           <div className=" flex justify-between  p-6 items-center   2xl:w-64 bg-[#001E2D] 2xl:h-28 md:w-56 md:h-24 bg-yellow-700 rounded-[35px]">
-            <Image className=" md:w-16 2xl:w-[75px]" src={css} alt="css" />
+            <Image
+              unoptimized={false}
+              className=" md:w-16 2xl:w-[75px]"
+              src={css}
+              alt="css"
+            />
             <p className="text-white md:text-3xl 2xl:text-[33px] font-normal">
               CSS
             </p>
@@ -119,6 +162,7 @@ function Carousel() {
         <li>
           <div className=" flex justify-between  p-6 items-center   2xl:w-64 bg-[#987C0D] 2xl:h-28 md:w-56 md:h-24 bg-yellow-700 rounded-[35px]">
             <Image
+              unoptimized={false}
               className=" md:w-16 2xl:w-[75px]"
               src={javascript}
               alt="javascript"
@@ -131,6 +175,7 @@ function Carousel() {
         <li>
           <div className=" flex justify-between  p-6 items-center   2xl:w-64 bg-[#083A5C] 2xl:h-28 md:w-56 md:h-24 bg-yellow-700 rounded-[35px]">
             <Image
+              unoptimized={false}
               className=" md:w-16 2xl:w-[65px]"
               src={typescript}
               alt="typescript"
@@ -142,7 +187,12 @@ function Carousel() {
         </li>
         <li>
           <div className="flex justify-between  p-6 items-center   2xl:w-64 bg-[#052831] 2xl:h-28 md:w-56 md:h-24 bg-yellow-700 rounded-[35px]">
-            <Image className=" md:w-16 2xl:w-[75px]" src={react} alt="react" />
+            <Image
+              unoptimized={false}
+              className=" md:w-16 2xl:w-[75px]"
+              src={react}
+              alt="react"
+            />
             <p className="text-white md:text-3xl 2xl:text-[33px] font-normal">
               React
             </p>
@@ -158,7 +208,12 @@ function Carousel() {
         </li>
         <li>
           <div className="flex justify-between  p-6 items-center   2xl:w-64 bg-[#1B0937] 2xl:h-28 md:w-56 md:h-24 bg-yellow-700 rounded-[35px]">
-            <Image className=" md:w-16 2xl:w-[75px]" src={redux} alt="redux" />
+            <Image
+              unoptimized={false}
+              className=" md:w-16 2xl:w-[75px]"
+              src={redux}
+              alt="redux"
+            />
             <p className="text-white md:text-3xl 2xl:text-[33px] font-normal">
               Redux
             </p>
@@ -167,6 +222,7 @@ function Carousel() {
         <li>
           <div className="flex justify-between items-center px-3 2xl:w-64 bg-[#053443] 2xl:h-28 md:w-56 md:h-24 bg-yellow-700 rounded-[35px]">
             <Image
+              unoptimized={false}
               className=" md:w-16 2xl:w-[75px]"
               src={tailwind}
               alt="tailwind"
@@ -178,7 +234,12 @@ function Carousel() {
         </li>
         <li>
           <div className="flex justify-between  p-6 items-center   2xl:w-64 bg-[#882C1B] 2xl:h-28 md:w-56 md:h-24 bg-yellow-700 rounded-[35px]">
-            <Image className=" md:w-16 2xl:w-[75px]" src={git} alt="git" />
+            <Image
+              unoptimized={false}
+              className=" md:w-16 2xl:w-[75px]"
+              src={git}
+              alt="git"
+            />
             <p className="text-white md:text-3xl 2xl:text-[33px] font-normal md:pr-3 2xl:pr-5">
               Git
             </p>

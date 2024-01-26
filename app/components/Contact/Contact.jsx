@@ -5,11 +5,11 @@ import linkedin from "./asset/linkedin.svg";
 import { FaLinkedin } from "react-icons/fa6";
 function Contact() {
   return (
-    <div>
+    <div id="contact">
       <h2 className="text-center 2xl:text-5xl md:text-4xl text-blue mb-28 font-semibold capitaliz tracking-wide">
-        Get in Touch
+        Contact
       </h2>
-      <div className="flex items-center justify-between md:p-28 2xl:p-32 w-full 2xl:h-[430px] md:h-96 bg-back rounded-[93px] mb-28">
+      <div className="flex items-center justify-between md:p-28 2xl:p-32 w-full 2xl:h-[430px] md:h-96 bg-back rounded-[93px] mb-24">
         <address className="flex flex-col gap-6 pt-3">
           <p className="text-3xl md:text-2xl not-italic">
             <span className="text-red">Phone</span>:{" "}
@@ -49,6 +49,7 @@ function Contact() {
         /></div>
         </div>
       </div>
+      <p className=" text-center pb-4 ">Made with <span className=" text-red">&#9829;</span>  by mahdi kamyabi</p>
     </div>
   );
 }

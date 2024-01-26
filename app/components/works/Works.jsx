@@ -4,7 +4,7 @@ import WorkC from './WorkC'
 
 function Works() {
   return (
-    <div>
+    <div id="works">
     <h2 className="text-center 2xl:text-5xl md:text-4xl text-blue mb-28 font-semibold capitaliz tracking-wide">
           Works
         </h2>

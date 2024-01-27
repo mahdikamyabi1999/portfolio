@@ -13,10 +13,12 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  
   return (
     <html lang="en">
       <body className={poppins.className}>
         <Navbar />
+        <div className="cursor"></div>
         {children}
       </body>
     </html>

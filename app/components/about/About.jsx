@@ -25,7 +25,7 @@ function About() {
           and have fulfilled my military service obligations. Currently, I have
           an intermediate level of proficiency in the English language.
         </p>
-        <button className=" mt-20 md:w-64 md:h-16  bg-red rounded-[20px] md:text-2xl font-medium hover:text-back hover:bg-blue duration-300 hover:scale-110">
+        <button className=" cursor-none mt-20 md:w-64 md:h-16  bg-red rounded-[20px] md:text-2xl font-medium hover:text-back hover:bg-blue duration-300 hover:scale-110">
           Download my CV
         </button>
       </div>

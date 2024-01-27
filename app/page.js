@@ -8,8 +8,17 @@ import Works from "./components/works/Works";
 import Aos from "aos";
 import 'aos/dist/aos.css'
 
+
+
 export default function Home() {
+  
   useEffect(()=> {
+    let mouseCursor = document.querySelector('.cursor');
+  window.addEventListener('mousemove',cursor);
+  function cursor(e) {
+    mouseCursor.style.top = e.pageY + "px";
+    mouseCursor.style.left = e.pageX + "px";
+  } 
     Aos.init({
       duration: 1000,
       easing: 'ease-out',

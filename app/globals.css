@@ -15,7 +15,9 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-
+* {
+  cursor: none;
+}
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -30,4 +32,23 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+::selection {
+  background: #00c6c2;
+  color: black;
+}
+::-moz-selection {
+  background: #00c6c2;
+  color: black;
+}
+
+.cursor {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 1000;
+  backdrop-filter: invert();
 }

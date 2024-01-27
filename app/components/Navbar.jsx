@@ -7,7 +7,7 @@ function Navbar() {
       duration: 1300,
       delay: 0,
       smooth: "easeInOutCubic",
-      offset: -90
+      offset: -180
     });
   };
   const skill = () => {
@@ -15,7 +15,7 @@ function Navbar() {
       duration: 2100,
       delay: 0,
       smooth: "easeInOutCubic",
-      offset: -90
+      offset: -180
     });
   };
   const work = () => {

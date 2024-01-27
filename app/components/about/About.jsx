@@ -1,6 +1,16 @@
+'use client';
+import Aos from "aos";
+import 'aos/dist/aos.css'
+import { useEffect } from "react";
 function About() {
+  useEffect(()=> {
+    Aos.init({
+      duration: 1500,
+    })
+  },[])
   return (
-    <div id="about">
+    <div id="about" data-aos="fade-up"
+    data-aos-anchor-placement="top-bottom">
       <h2 className="text-center 2xl:text-5xl md:text-4xl text-blue mb-28 font-semibold capitaliz tracking-wide">
         About
       </h2>

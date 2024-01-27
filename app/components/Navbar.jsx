@@ -1,5 +1,5 @@
 'use client';
-import {Link, scroller} from 'react-scroll'
+import {scroller} from 'react-scroll'
 
 function Navbar() {
   const about = () => {

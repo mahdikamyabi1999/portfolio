@@ -8,8 +8,6 @@ import Works from "./components/works/Works";
 import Aos from "aos";
 import 'aos/dist/aos.css'
 
-
-
 export default function Home() {
   
   useEffect(()=> {

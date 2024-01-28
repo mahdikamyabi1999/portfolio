@@ -7,12 +7,12 @@ function Navbar() {
       duration: 1300,
       delay: 0,
       smooth: "easeInOutCubic",
-      offset: -180
+      offset: -400
     });
   };
   const skill = () => {
     scroller.scrollTo("skills", {
-      duration: 2100,
+      duration: 1900,
       delay: 0,
       smooth: "easeInOutCubic",
       offset: -180
@@ -20,7 +20,7 @@ function Navbar() {
   };
   const work = () => {
     scroller.scrollTo("works", {
-      duration: 2200,
+      duration: 2000,
       delay: 0,
       smooth: "easeInOutCubic",
       offset: -90
@@ -28,7 +28,7 @@ function Navbar() {
   };
   const contact = () => {
     scroller.scrollTo("contact", {
-      duration: 3100,
+      duration: 2900,
       delay: 0,
       smooth: "easeInOutCubic",
       offset: 0

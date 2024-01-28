@@ -20,7 +20,7 @@ function Text() {
     <div>
       <h2 className="text-blue text-4xl font-medium">Hi my name is mahdi</h2>
       <h1 className="text-slate-300 text-5xl 2xl:text-6xl font-bold leading-[80px] 2xl:leading-[95px] tracking-[3px] mb-10 mt-1">
-        Front end developer <br /> let's
+        Front end developer <br /> let&apos;s
         <span>{`  ${text}`}</span>
         <span className=" text-red">
           <Cursor cursorStyle="." />

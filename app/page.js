@@ -31,7 +31,7 @@ export default function Home() {
   }, []);
   return (
     <>
-      <div className="cursor" ref={element}></div>
+      <div className=" hidden md:block md:cursor" ref={element}></div>
       <main
         data-aos="fade-up"
         data-aos-anchor-placement="top-bottom"

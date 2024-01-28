@@ -33,14 +33,14 @@ body {
     text-wrap: balance;
   }
 }
-::selection {
+/* ::selection {
   background: #00c6c2;
   color: black;
 }
 ::-moz-selection {
   background: #00c6c2;
   color: black;
-}
+} */
 
 .cursor {
   width: 2.5rem;

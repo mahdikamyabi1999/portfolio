@@ -14,7 +14,8 @@ function Astronaut() {
     },
   };
   return (
-    <div className=" scale-90 cursor-default">
+    <div className=" sm:max-md:scale-75
+     md:scale-90 cursor-default">
       <Lottie
         options={defaultOptions}
         isClickToPauseDisabled={true}

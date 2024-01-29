@@ -35,7 +35,7 @@ function Navbar() {
     });
   };
   return (
-    <ul className="flex justify-center sticky items-center gap-24 font-medium h-[15vh] text-2xl capitalize">
+    <ul className="hidden md:flex md:justify-center  md:items-center md:gap-24 md:font-medium md:h-[15vh] md:text-2xl md:capitalize">
       <li className="hover:text-blue duration-300 cursor-pointer hover:text-3xl">
         <a  onClick={about}>About</a> 
       </li>

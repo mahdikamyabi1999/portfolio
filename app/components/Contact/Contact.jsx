@@ -16,10 +16,10 @@ function Contact() {
   }, []);
   return (
     <div id="contact" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-      <h2 className="text-center 2xl:text-5xl md:text-4xl text-blue mb-28 font-semibold capitaliz tracking-wide">
+      <h2 className=" text-2xl text-center mt-8 max-md:mb-8 sm:max-md:text-4xl 2xl:text-5xl md:text-4xl text-blue md:mb-28 font-semibold capitaliz tracking-wide">
         Contact
       </h2>
-      <div className="flex items-center justify-between md:p-28 2xl:p-32 w-full 2xl:h-[430px] md:h-96 bg-back rounded-[93px] mb-24">
+      <div className="flex items-center justify-between md:p-28 2xl:p-32 w-full 2xl:h-[430px] md:h-96 bg-back rounded-[93px] max-md:mb-12 md:mb-24">
         <address className="flex flex-col gap-6 pt-3">
           <p className="text-3xl md:text-2xl not-italic">
             <span className="text-red">Phone</span>:{" "}

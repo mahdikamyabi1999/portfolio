@@ -1,5 +1,6 @@
 'use client';
 import Carousel from './Carousel'
+import CarouselSecondMobile from './CarouselSecondMobile'
 import Text from './Text'
 import Aos from "aos";
 import 'aos/dist/aos.css'
@@ -15,6 +16,7 @@ function Skills() {
     data-aos-anchor-placement="top-bottom">
       <Text/>
       <Carousel/>
+      <CarouselSecondMobile/>
     </div>
   )
 }

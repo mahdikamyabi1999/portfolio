@@ -14,11 +14,11 @@ function Works() {
   },[])
   return (
     <div id="works">
-    <h2 className="text-center 2xl:text-5xl md:text-4xl text-blue mb-28 font-semibold capitaliz tracking-wide" data-aos="fade-up"
+    <h2 className=" text-2xl text-center mt-8 max-md:mb-8 sm:max-md:text-4xl 2xl:text-5xl md:text-4xl text-blue md:mb-28 font-semibold capitaliz tracking-wide" data-aos="fade-up"
     data-aos-anchor-placement="top-bottom">
           Works
         </h2>
-    <div className=" flex flex-col gap-16">
+    <div className=" flex flex-col gap-5 md:gap-16">
       <WorkA/>
       <WorkB/>
       <WorkC/>

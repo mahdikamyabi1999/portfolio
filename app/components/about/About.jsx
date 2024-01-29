@@ -7,7 +7,7 @@ function About() {
   const element = useRef(null);
   const {scrollYProgress} = useScroll({
     target: element,
-    offset: ['start 0.8', 'start 0.10']
+    offset: ['start 0.8', 'start 0.15']
   })
   useEffect(() => {
     Aos.init({
@@ -21,19 +21,19 @@ function About() {
   
   return (
     <div id="about" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-      <h2 className="text-center 2xl:text-5xl md:text-4xl text-blue mb-28 font-semibold capitaliz tracking-wide">
+      <h2 className=" text-2xl text-center mt-20 max-md:mb-8 sm:max-md:text-4xl 2xl:text-5xl md:text-4xl text-blue md:mb-28 font-semibold capitaliz tracking-wide">
         About
       </h2>
 
-      <div className="flex flex-col items-center w-full h-auto bg-back rounded-[93px] p-24">
-        <p ref={element} className=" flex flex-wrap items-center justify-center text-4xl font-medium  md:leading-[85px] 2xl:leading-[90px]  ">
+      <div className="flex flex-col items-center md:w-full h-auto md:bg-back md:rounded-[93px] md:p-24">
+        <p ref={element} className=" flex flex-wrap items-center text-xl justify-center sm:max-md:text-2xl md:text-4xl font-medium  md:leading-[85px] 2xl:leading-[90px]  ">
           {words.map((word,i) => {
             const start = i / words.length;
             const end = start + (1 / words.length);
             return <Word key={i} range={[start, end]} progress={scrollYProgress}>{word}</Word>
           })}
         </p>
-        <button className=" cursor-none mt-20 md:w-64 md:h-16  bg-red rounded-[20px] md:text-2xl font-medium hover:text-back hover:bg-blue duration-300 hover:scale-110">
+        <button className=" cursor-none w-44 h-12 text-lg rounded-2xl mt-12 md:mt-20 md:w-64 md:h-16  bg-red md:rounded-[20px] md:text-2xl font-medium hover:text-back hover:bg-blue duration-300 hover:scale-110">
           Download my CV
         </button>
       </div>
@@ -68,3 +68,4 @@ const Character = ({children,range,progress}) => {
   </motion.span>
   </span>
 }
+

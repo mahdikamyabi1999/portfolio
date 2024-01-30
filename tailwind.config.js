@@ -25,11 +25,13 @@ module.exports = {
           to: { transform: "translateX(-100%)" },
         },
         "infinite-scroll-Mobile": {
-            from: { transform: "translateX(-100%)" },
-            to: { transform: "translateX(0)" },
-          },
-        
-    },    
+          from: { transform: "translateX(-100%)" },
+          to: { transform: "translateX(0)" },
+        },
+      },
+      scale: {
+        '25': '0.15',
+      }
     },
   },
   plugins: [],

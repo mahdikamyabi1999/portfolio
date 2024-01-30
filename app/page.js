@@ -36,7 +36,7 @@ export default function Home() {
       <main
         data-aos="fade-up"
         data-aos-anchor-placement="top-bottom"
-        className=" flex flex-col gap-y-[70px] max-w-96  sm:max-md:max-w-3xl sm:max-md:px-8 md:gap-y-32  md:my-0 mx-auto md:px-8 2xl:max-w-[1550px] md:max-w-[1300px]"
+        className=" flex flex-col gap-y-[70px] max-w-[400px]  sm:max-md:max-w-3xl sm:max-md:px-8 md:gap-y-32  md:my-0 mx-auto md:px-8 2xl:max-w-[1550px] md:max-w-[1300px]"
       >
         <Hero />
         <About />

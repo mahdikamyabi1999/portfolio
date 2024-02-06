@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -6,7 +6,6 @@ import Image from "next/image";
 import astronaut from "./asset/as-moon.svg";
 import github from "./asset/github.svg";
 import linkedin from "./asset/linkedin.svg";
-import { FaLinkedin } from "react-icons/fa6";
 import MobileContact from "./MobileContact";
 function Contact() {
   useEffect(() => {

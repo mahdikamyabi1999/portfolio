@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect, useRef } from "react";

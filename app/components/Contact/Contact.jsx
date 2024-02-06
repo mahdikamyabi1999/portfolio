@@ -2,6 +2,7 @@
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import Link from "next/link";
 import Image from "next/image";
 import astronaut from "./asset/as-moon.svg";
 import github from "./asset/github.svg";
@@ -24,35 +25,44 @@ function Contact() {
         <address className="flex flex-col md:gap-6 md:pt-3">
           <p className="2xl:text-3xl md:text-2xl not-italic">
             <span className="text-red">Phone</span>:{" "}
-            <a
+            <Link
               href="tel:09365590721"
               className="hover:text-blue transition duration-300"
             >
               09365590721
-            </a>
+            </Link>
           </p>
           <p className="2xl:text-3xl md:text-2xl not-italic">
             <span className="text-red">Email</span>:{" "}
-            <a
+            <Link
               href="mailto:mahdikamyabi01@gmail.com"
               className="hover:text-blue transition duration-300"
             >
               mahdikamyabi01@gmail.com
-            </a>
+            </Link>
           </p>
           <div className="flex gap-5 items-center ">
-            <Image
-              src={github}
-              alt="github"
-              unoptimized={false}
-              className="2xl:h-16 md:h-[55px] md:w-[55px] 2xl:w-16 hover:invert transition duration-300 "
-            />
-            <Image
-              src={linkedin}
-              alt="linkedin"
-              unoptimized={false}
-              className=" h-10 2xl:h-[70px] md:h-[60px] md:w-[60px] 2xl:w-[70px] hover:invert transition duration-300"
-            />
+            <Link href="https://github.com/mahdikamyabi1999" target="_blank">
+              <Image
+                src={github}
+                alt="github"
+                href="https://www.linkedin.com/in/mahdikamyabi1999/"
+                unoptimized={false}
+                className="2xl:h-16 md:h-[55px] md:w-[55px] 2xl:w-16 hover:invert transition duration-300 "
+              />
+            </Link>
+
+            <Link
+              href="https://www.linkedin.com/in/mahdikamyabi1999/"
+              target="_blank"
+            >
+              <Image
+                src={linkedin}
+                alt="linkedin"
+                unoptimized={false}
+                className=" h-10 2xl:h-[70px] md:h-[60px] md:w-[60px] 2xl:w-[70px] hover:invert transition duration-300"
+              />
+            </Link>
           </div>
         </address>
         <div>
@@ -67,7 +77,7 @@ function Contact() {
         </div>
       </div>
       <p className=" text-center text-xs pb-3 md:text-base md:pb-4 opacity-85 ">
-        Made with <span className=" animate-pulse">❤️</span> by mahdi kamyabi
+        Made with <span className="animate-pulse">❤️</span> by mahdi kamyabi
       </p>
     </div>
   );

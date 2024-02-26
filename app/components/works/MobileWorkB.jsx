@@ -22,7 +22,7 @@ function MobileWorkB() {
         <div className="flex max-md:flex-col max-md:items-center max-md:justify-center">
           <div className=" bg-back w-[85vw] h-[470px] rounded-[50px] p-6">
             <div className="flex justify-center">
-              <div className="flex flex-col gap-y-6">
+              <div className="flex flex-col">
                 <div className="flex justify-center">
                   <div className="w-[70vw]">
                     <Image
@@ -32,15 +32,15 @@ function MobileWorkB() {
                     />
                   </div>
                 </div>
-                <h2 className="text-center text-xl font-bold">Split Bill App</h2>
-                <p className="  text-white text-base px-2">
+                <h2 className="text-center text-xl font-bold mt-5">Split Bill App</h2>
+                <p className="  text-white text-base px-2 mt-4">
                 eCommerce web application using React, Redux. in
                   this App <br />
-                  <span className="text-blue md:leading-10">
+                  <span className="text-blue leading-3">
                     I work with Redux toolkit and How to manage Data and Search with API
                   </span>
                 </p>
-                <div className="btns flex gap-x-3  self-center mt-4 ">
+                <div className="btns flex gap-x-3 absolute bottom-7  self-center">
                   <Link href='https://split.liara.run/' target="_blank">
                   <button className=" text-back cursor-none w-40 h-12 text-lg rounded-2xl   md:w-48 md:h-[55px]  bg-white md:rounded-[20px] md:text-xl font-normal  duration-300 hover:scale-110">
                     Demo

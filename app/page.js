@@ -31,12 +31,12 @@ export default function Home() {
   },[]);
   return (
     <>
-      <div className="hidden md:block"><div className="cursor" ref={element}></div></div>
+      <div className="hidden lg:block"><div className="cursor" ref={element}></div></div>
       
       <main
         data-aos="fade-up"
         data-aos-anchor-placement="top-bottom"
-        className=" flex flex-col gap-y-[50px] max-w-[400px]  sm:max-md:max-w-3xl sm:max-md:px-8 md:gap-y-32  md:my-0 mx-auto md:px-8 2xl:max-w-[1550px] md:max-w-[1300px]"
+        className=" flex flex-col gap-y-[50px] max-w-[400px]  sm:max-lg:max-w-3xl sm:max-lg:px-8 lg:gap-y-32  lg:my-0 mx-auto lg:px-8 2xl:max-w-[1550px] lg:max-w-[1300px]"
       >
         <Hero />
         <About />

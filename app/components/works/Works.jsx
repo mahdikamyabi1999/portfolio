@@ -2,6 +2,7 @@
 import WorkA from "./WorkA";
 import WorkB from "./WorkB";
 import WorkC from "./WorkC";
+import MobileWorkA from './MobileWorkA';
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -23,6 +24,7 @@ function Works() {
       </h2>
       <div className=" flex flex-col gap-5 md:gap-16">
         <WorkA />
+        <MobileWorkA/>
         <WorkB />
         <WorkC />
       </div>

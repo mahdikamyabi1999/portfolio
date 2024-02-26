@@ -3,6 +3,7 @@ import WorkA from "./WorkA";
 import WorkB from "./WorkB";
 import WorkC from "./WorkC";
 import MobileWorkA from './MobileWorkA';
+import MobileWorkB from './MobileWorkB';
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -26,6 +27,7 @@ function Works() {
         <WorkA />
         <MobileWorkA/>
         <WorkB />
+        <MobileWorkB/>
         <WorkC />
       </div>
     </div>

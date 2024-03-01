@@ -1,4 +1,3 @@
-// 'use client';
 import WorkItem from "./WorkItem";
 import Aos from "aos";
 import "aos/dist/aos.css";

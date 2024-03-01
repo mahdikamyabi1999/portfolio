@@ -7,7 +7,7 @@ function About() {
   const element = useRef(null);
   const { scrollYProgress } = useScroll({
     target: element,
-    offset: ["start 0.8", "start 0.15"],
+    offset: ["start 0.65", "start 0.15"],
   });
   useEffect(() => {
     Aos.init({
@@ -20,7 +20,11 @@ function About() {
   const words = Text.split(" ");
 
   return (
-    <section id="about" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+    <section
+      id="about"
+      data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom"
+    >
       <h2 className=" text-2xl text-center mt-16 md:mt-20 max-md:mb-8 sm:max-md:text-4xl 2xl:text-5xl md:text-4xl text-blue md:mb-28 font-semibold capitaliz tracking-wide">
         About
       </h2>
@@ -44,7 +48,7 @@ function About() {
             );
           })}
         </p>
-        <button className=" cursor-none w-44 h-12 text-lg rounded-2xl mt-12 md:mt-20 md:w-64 md:h-16  bg-red md:rounded-[20px] md:text-2xl font-medium hover:text-back hover:bg-blue duration-300 hover:scale-110">
+        <button className=" cursor-none w-44 h-12 text-lg rounded-2xl mt-12 md:mt-20 md:w-64 md:h-20  bg-red md:rounded-[20px] md:text-2xl font-medium hover:text-back hover:bg-blue duration-300 hover:scale-110">
           Download my CV
         </button>
       </div>

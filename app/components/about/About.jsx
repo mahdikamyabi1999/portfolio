@@ -29,14 +29,14 @@ function About() {
         About
       </h2>
 
-      <div className="flex flex-col items-center pl-4  sm:max-md:pl-4 md:w-full h-auto md:bg-back md:rounded-[93px] md:p-24">
-        <p className="sm:max-md:text-2xl text-xl md:text-4xl font-medium  md:leading-[85px] 2xl:leading-[90px]  ">
+      <div className="flex flex-col items-center pl-6  sm:max-md:pl-4 md:w-full h-auto md:bg-back md:rounded-[93px] md:p-24">
+        <p className="max-md:pb-6 sm:max-md:text-2xl text-xl md:text-4xl font-medium  md:leading-[85px] 2xl:leading-[90px]  ">
           Hi everyone
         </p>
-        <br />
+        
         <p
           ref={element}
-          className=" flex flex-wrap text-xl justify-start md:justify-center sm:max-md:text-2xl  md:text-4xl font-medium  md:leading-[85px] 2xl:leading-[90px]"
+          className=" flex flex-wrap text-lg md:justify-center sm:max-md:text-2xl  md:text-4xl font-medium  md:leading-[85px] 2xl:leading-[90px]"
         >
           {words.map((word, i) => {
             const start = i / words.length;
@@ -48,7 +48,7 @@ function About() {
             );
           })}
         </p>
-        <button className=" cursor-none w-44 h-12 text-lg rounded-2xl mt-12 md:mt-20 md:w-64 md:h-20  bg-red md:rounded-[20px] md:text-2xl font-medium hover:text-back hover:bg-blue duration-300 hover:scale-110">
+        <button className=" cursor-none w-48 h-16 text-xl rounded-2xl mt-12 md:mt-16 md:w-60 md:h-20  bg-red md:rounded-[20px] md:text-2xl font-medium hover:text-back hover:bg-blue duration-300 hover:scale-110">
           Download my CV
         </button>
       </div>

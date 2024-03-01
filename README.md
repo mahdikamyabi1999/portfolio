@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="left">portfolio</h1>
 
-## Getting Started
+###
 
-First, run the development server:
+<div align="center">
+  <img  src="/coverGithub.png"  />
+</div>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+###
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p align="left"></p>
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+###
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<h2 align="left">Welcome to my portfolio website repository!</h2>
 
-## Learn More
+###
 
-To learn more about Next.js, take a look at the following resources:
+<p align="left">This project serves as a showcase of my skills, and projects. <br><br>Whether you stumbled upon this repository out of curiosity or you're considering collaborating with me, I hope you find what you're looking for.</h3>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+###
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<h2 align="left">Technologies</h2>
 
-## Deploy on Vercel
+###
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=js" height="40" alt="javascript logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=nextjs" height="40" alt="nextjs logo"  />
+  <img width="12" />
+  <img src="https://cdn.simpleicons.org/tailwindcss/06B6D4" height="40" alt="tailwindcss logo"  />
+</div>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+###
+
+<h2 align="left">Key Learnings from This Project</h2>
+
+###
+
+<p align="left">This project has been a valuable learning experience, with several key takeaways:<br><br><h3>Framer Motion Mastery</h3>  I've honed my skills in creating fluid animations and custom transitions, enhancing the website's visual appeal and user engagement.<br><br><h3>AOS Library </h3> Integrating scroll-triggered animations has added interactivity and dynamism to the website's design, enriching the user experience.<br><br><h3>Reusable Components</h3> Emphasizing a component-based architecture has streamlined development, improved code maintainability, and facilitated easier scaling and iteration.<br><br><h3>Tailwind CSS</h3> Utilizing Tailwind CSS for styling and layout has enabled rapid prototyping and implementation of responsive design principles, resulting in sleek and visually compelling interfaces.<br><br>These learnings will undoubtedly inform and enhance my future projects, empowering me to create more polished and immersive digital experiences.</p>
+
+###
+
+<div align="left">
+  <a href="https://www.linkedin.com/in/mahdikamyabi1999/" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
+  </a>
+</div>
+
+###

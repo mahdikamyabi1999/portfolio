@@ -5,28 +5,7 @@ import { useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-const works = [
-  {
-    id: 1,
-    src: "/shopping.png",
-    h2: "eCommerce App",
-    p: "eCommerce web application using React, Redux. in this App",
-    span: "I work with Redux toolkit and How to manage Data and Search with API",
-    demoLink: "https://shoppingcart.liara.run/",
-    githubLink: "https://github.com/mahdikamyabi1999/Shopping-Cart",
-  },
-  {
-    id: 2,
-    src: "/split.png",
-    h2: "Split Bill App",
-    p: "eCommerce web application using React, Redux. in this App",
-    span: "I work with Redux toolkit and How to manage Data and Search with API",
-    demoLink: "https://split.liara.run/",
-    githubLink: "https://github.com/mahdikamyabi1999/Split-bill-mini-project",
-  },
-];
-
-function MobileWorks() {
+function MobileWorkItem({works}) {
   useEffect(() => {
     Aos.init({
       duration: 2000,
@@ -88,4 +67,4 @@ function MobileWorks() {
   );
 }
 
-export default MobileWorks;
+export default MobileWorkItem;

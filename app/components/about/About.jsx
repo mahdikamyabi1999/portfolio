@@ -20,7 +20,7 @@ function About() {
   const words = Text.split(" ");
 
   return (
-    <div id="about" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+    <section id="about" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
       <h2 className=" text-2xl text-center mt-16 md:mt-20 max-md:mb-8 sm:max-md:text-4xl 2xl:text-5xl md:text-4xl text-blue md:mb-28 font-semibold capitaliz tracking-wide">
         About
       </h2>
@@ -48,7 +48,7 @@ function About() {
           Download my CV
         </button>
       </div>
-    </div>
+    </section>
   );
 }
 export default About;

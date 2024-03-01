@@ -28,11 +28,13 @@ export default function Home() {
       duration: 1000,
       easing: "ease-out",
     });
-  },[]);
+  }, []);
   return (
     <>
-      <div className="hidden lg:block"><div className="cursor" ref={element}></div></div>
-      
+      <div className="hidden lg:block">
+        <div className="cursor" ref={element}></div>
+      </div>
+
       <main
         data-aos="fade-up"
         data-aos-anchor-placement="top-bottom"

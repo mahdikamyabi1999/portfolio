@@ -12,11 +12,11 @@ function Skills() {
     });
   }, []);
   return (
-    <div id="skills" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+    <section id="skills" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
       <Text />
       <Carousel />
       <CarouselSecondMobile />
-    </div>
+    </section>
   );
 }
 

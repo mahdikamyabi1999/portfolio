@@ -16,7 +16,11 @@ function Contact() {
     });
   }, []);
   return (
-    <div id="contact" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+    <section
+      id="contact"
+      data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom"
+    >
       <h2 className=" text-2xl text-center md:mt-8  sm:max-md:text-4xl 2xl:text-5xl md:text-4xl text-blue md:mb-28 font-semibold capitaliz tracking-wide">
         Contact <span className="md:hidden">Me</span>
       </h2>
@@ -79,7 +83,7 @@ function Contact() {
       <p className=" text-center text-xs pb-3 md:text-base md:pb-4 opacity-85 ">
         Made with <span className="animate-pulse">❤️</span> by mahdi kamyabi
       </p>
-    </div>
+    </section>
   );
 }
 

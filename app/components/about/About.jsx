@@ -29,14 +29,13 @@ function About() {
         About
       </h2>
 
-      <div className="flex flex-col items-center pl-6  sm:max-md:pl-4 md:w-full h-auto md:bg-back md:rounded-[93px] md:p-24">
-        <p className="max-md:pb-6 sm:max-md:text-2xl text-xl md:text-4xl font-medium  md:leading-[85px] 2xl:leading-[90px]  ">
+      <div className="flex flex-col items-center pl-5 pr-2  sm:max-md:pl-4 md:w-full h-auto md:bg-back md:rounded-[93px] md:p-24">
+        <p className="max-md:mb-6 sm:max-md:text-2xl text-xl md:text-4xl font-medium  md:leading-[85px] 2xl:leading-[90px]  ">
           Hi everyone
         </p>
-        
         <p
           ref={element}
-          className=" flex flex-wrap text-lg md:justify-center sm:max-md:text-2xl  md:text-4xl font-medium  md:leading-[85px] 2xl:leading-[90px]"
+          className="flex flex-wrap text-lg md:justify-center sm:max-md:text-2xl  md:text-4xl font-medium  md:leading-[85px] 2xl:leading-[90px]"
         >
           {words.map((word, i) => {
             const start = i / words.length;

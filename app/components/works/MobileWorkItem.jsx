@@ -5,7 +5,7 @@ import { useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-function MobileWorkItem({works}) {
+function MobileWorkItem({ works }) {
   useEffect(() => {
     Aos.init({
       duration: 2000,
@@ -14,7 +14,7 @@ function MobileWorkItem({works}) {
   }, []);
   return (
     <>
-      {works.map(({ id, src, h2, p, span, demoLink, githubLink }) => (
+      {works.map(({ id, src, h2, p, KeyLesson, demoLink, githubLink }) => (
         <div
           data-aos="fade-up"
           data-aos-anchor-placement="top-bottom"
@@ -23,7 +23,7 @@ function MobileWorkItem({works}) {
         >
           <div className="flex md:justify-between justify-center">
             <div className="flex max-md:flex-col max-md:items-center max-md:justify-center">
-              <div className=" bg-back w-[85vw] h-[480px] rounded-[50px] p-6">
+              <div className=" bg-back w-[85vw] h-[480px] rounded-[50px] p-5">
                 <div className="flex justify-center">
                   <div className="flex flex-col">
                     <div className="flex justify-center">
@@ -38,10 +38,20 @@ function MobileWorkItem({works}) {
                       </div>
                     </div>
                     <h2 className="text-center text-xl font-bold mt-5">{h2}</h2>
-                    <p className="  text-white text-base px-1 mt-4">
+                    <p className="  text-white text-base px-1 mt-4 leading-9">
                       {p}
-                      <br />
-                      <span className="text-blue leading-3">{span}</span>
+                      <span> </span>
+                      {KeyLesson.map(({ text, bgColor, index }) => (
+                        <>
+                          <span
+                            key={index}
+                            className={`p-1 rounded-md text-sm text-[#fff] ${bgColor}`}
+                          >
+                            {`${text}`}
+                          </span>
+                          <span> </span>
+                        </>
+                      ))}
                     </p>
                     <div className="btns flex absolute gap-x-4  self-center bottom-7">
                       <Link href={demoLink} target="_blank">

@@ -1,8 +1,9 @@
-// "use client";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect, useRef } from "react";
 import { useScroll, motion, useTransform } from "framer-motion";
+import Link from "next/link";
+import AboutBtn from './AboutBtn'
 function About() {
   const element = useRef(null);
   const { scrollYProgress } = useScroll({
@@ -14,6 +15,7 @@ function About() {
       duration: 1500,
     });
   }, []);
+  
 
   const Text =
     "as i mentioned, my name is MAHDI KAMYABI, 24 year old programmer from TEHRAN. my journey began 6 months ago when i took the fundamental course in HTML, CSS, and JAVASCRIPT. recently, i completed my REACT JS course. i hold a bachelor's degree in ICT from shamsipour university and have fulfilled my military service obligations. currently, i have an INTERMEDIATE level of proficiency in the english language.";
@@ -47,9 +49,7 @@ function About() {
             );
           })}
         </p>
-        <button className=" cursor-none w-48 h-16 text-xl rounded-2xl mt-12 md:mt-16 md:w-60 md:h-20  bg-red md:rounded-[20px] md:text-2xl font-medium hover:text-back hover:bg-blue duration-300 hover:scale-110">
-          Download my CV
-        </button>
+        <AboutBtn/>
       </div>
     </section>
   );
